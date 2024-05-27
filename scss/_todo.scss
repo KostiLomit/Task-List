@@ -1,0 +1,100 @@
+body {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal
+}
+.todo {
+    max-width: 1024px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.title {
+    font-size: 1.5em;
+    text-align: center;
+    width: 100%;
+}
+
+.header {
+    width: 100%;
+    padding: 15px 0 15px 0;
+
+    .header-top {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.count {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer{
+    width: 100%;
+    height: 100%;
+    .footer-buttons {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.todo-button{
+    width: 100%;
+    padding: 10px;
+    border-radius: 25px;
+    margin: 5px;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.todo-imput {
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+.todo-item {
+    display: flex;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 15px;
+    margin-top: 10px;
+    background-color: antiquewhite;
+    align-items: center;
+    
+    .item-left {
+        display: flex;
+        width: 85%;
+        .todo-number {
+            margin-right: 5px;
+            align-self: center;
+        }
+            
+    }
+    .item-right {
+        display: flex;
+        width: 15%;
+        justify-content: space-between;
+    }
+}
+.item-title{
+    font-size: 1em;
+    padding: 5px;
+    
+    &__strikethrough {
+        text-decoration: line-through;
+    }
+}
+
+
+.item-checkbox {
+    align-self: center;
+    width: 1em;
+    height: 1em;
+    
+}

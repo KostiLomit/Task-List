@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+  }
+  *,
+  *::before,
+  *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Обнуление стилей списка */
+  ul,
+  ol {
+    list-style: none;
+  }
+  
+  /* Обнуление стилей таблиц */
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  
+  /* Обнуление стилей для якорных тегов (ссылок) */
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Обнуление стилей для полей ввода и кнопок, чтобы они не наследовали стили интерфейса пользователя */
+  input,
+  button,
+  textarea,
+  select {
+    font-family: inherit;
+    font-size: 100%;
+  }
+  
+  /* Обнуление стилей для изображений и объектов, чтобы они не выходили за рамки своих контейнеров */
+  img,
+  video,
+  object,
+  iframe {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Обнуление стилей для заголовков (h1-h6), чтобы управлять их стилями независимо */
+  h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: normal;
+  }
+  p {
+    margin: 0;
+  }
